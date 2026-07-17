@@ -10,16 +10,22 @@
 <body>
 <header class="site-header">
   <a class="brand" href="index.html" aria-label="Return to the game homepage">
-    <span>Deadside</span>
+    <span><span style="color:var(--blood2)">Dead</span>side</span>
   </a>
-  <nav class="main-nav" aria-label="Main site navigation">
-    <a href="#">Heroes</a>
-    <a href="#">Monsters</a>
-    <a href="weapons.html">Weapons</a>
-    <a href="#">Armor</a>
-    <a href="#">Items</a>
-    <a href="skillsets.html">Skill Sets</a>
-  </nav>
+  <div class="nav-group">
+    <a class="nav-home-link" href="index.html">Home</a>
+    <details class="nav-dropdown">
+      <summary aria-label="Main site navigation">Journal</summary>
+      <div class="nav-dropdown-menu">
+        <a href="#">Heroes</a>
+        <a href="#">Monsters</a>
+        <a href="weapons.html">Weapons</a>
+        <a href="#">Armor</a>
+        <a href="#">Items</a>
+        <a href="skillsets.html">Skill Sets</a>
+      </div>
+    </details>
+  </div>
   <span class="archive-number">Shared Systems</span>
 </header>
 
