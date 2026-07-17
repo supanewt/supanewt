@@ -8,4 +8,8 @@ Optional texture used by the page:
 
 noise-texture.png
 
-The page will still display its dark gradient background if either image is missing.
+Optional main wiki splash background:
+
+wiki-background.webp
+
+The pages will still display their dark gradient backgrounds when these images are missing.

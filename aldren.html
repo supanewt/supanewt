@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Character dossier for Sir Aldren Vey, a selectable starting protagonist in a plague-ravaged horror strategy RPG.">
+  <title>Sir Aldren Vey — The Templar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Return to the game homepage">
+    <span class="brand-mark" aria-hidden="true">✦</span>
+    <span>Plaguebound</span>
+  </a>
+  <nav class="main-nav" aria-label="Character dossier navigation">
+    <a href="#dossier">Dossier</a>
+    <a href="#recruitment">Recruitment</a>
+    <a href="#combat">Combat</a>
+  </nav>
+  <span class="archive-number">Archive 01 / 60</span>
+</header>
+
+<main id="top">
+    <section class="hero" aria-labelledby="character-name">
+      <div class="hero-copy">
+        <p class="eyebrow">Selectable Starting Character</p>
+        <h1 id="character-name"><span>Sir Aldren</span> Vey</h1>
+        <p class="class-line">The Templar · Order of the Ashen Sun</p>
+        <p class="intro">A plague hunter sent to decide whether the castle town can be saved—or whether everything living within it must burn.</p>
+        <div class="hero-actions">
+          <a class="button" href="#dossier">Open Dossier</a>
+          <span class="alignment"><i></i> Severe, not inherently evil</span>
+        </div>
+      </div>
+
+      <!-- Add your portrait as images/aldren-templar.webp. The CSS provides a dark fallback when it is absent. -->
+      <div class="character-portrait" role="img" aria-label="Sir Aldren Vey in battered Templar armor">
+        <div class="ashen-sun" aria-hidden="true">✦</div>
+        <div class="portrait-label"><span>Age 42</span><span>Frontline / Plague Hunter</span></div>
+      </div>
+
+      <aside class="deadline">
+        <span>Final Order</span>
+        <strong>30</strong>
+        <small>days before the purge</small>
+      </aside>
+    </section>
+
+    <section class="section" id="dossier">
+      <header class="section-title">
+        <p>Restricted Record</p>
+        <h2>The Man Beneath the Armor</h2>
+      </header>
+      <div class="dossier-grid">
+        <article class="story-panel">
+          <span class="roman">I</span>
+          <h3>Duty Against Mercy</h3>
+          <p>Aldren enters the miasma carrying sealed authority to burn infected districts, execute carriers, and destroy every road out of town. He believes hesitation can kill thousands. He also knows fear can turn righteous men into monsters.</p>
+          <p>He has until the thirtieth day to find and destroy the source before duty demands that he condemn everyone still alive.</p>
+          <blockquote>“Mercy must save more than the person receiving it.”</blockquote>
+        </article>
+        <aside class="facts">
+          <div><span>Core conflict</span><strong>Duty versus mercy</strong></div>
+          <div><span>Greatest fear</span><strong>The plague escapes because he hesitated</strong></div>
+          <div><span>Secret hope</span><strong>Proof the town can still be saved</strong></div>
+          <div><span>Sacred object</span><strong>Sun-shaped reliquary</strong></div>
+        </aside>
+      </div>
+
+      <div class="detail-grid">
+        <article>
+          <p class="small-title">Virtues</p>
+          <ul class="trait-list positive">
+            <li>Courageous</li><li>Protective</li><li>Honest</li><li>Disciplined</li><li>Self-sacrificing</li>
+          </ul>
+        </article>
+        <article>
+          <p class="small-title">Faults</p>
+          <ul class="trait-list negative">
+            <li>Judgmental</li><li>Controlling</li><li>Suspicious of magic</li><li>Emotionally withdrawn</li><li>Fears uncertainty</li>
+          </ul>
+        </article>
+        <article class="secret">
+          <p class="small-title">Classified Truth</p>
+          <h3>The Relic Knows Him</h3>
+          <p>The reliquary Aldren believes is holy contains a fragment of the same demon beneath the town. He has unknowingly carried the plague between settlements for years.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section purge-section">
+      <header class="section-title split-title">
+        <div><p>If Aldren Is Not Selected</p><h2>The Purge Advances</h2></div>
+        <span>He arrives on Day 4 with three Templars.</span>
+      </header>
+      <ol class="timeline">
+        <li><b>04–08</b><span>Questions survivors and searches for evidence.</span></li>
+        <li><b>09–14</b><span>Confiscates supplies and arrests suspected carriers.</span></li>
+        <li><b>15–20</b><span>Executes the visibly mutated.</span></li>
+        <li><b>21–25</b><span>Seals infected buildings with people inside.</span></li>
+        <li><b>26–29</b><span>Prepares the town-wide purge.</span></li>
+        <li class="day-thirty"><b>30</b><span>Attempts to ignite the castle town.</span></li>
+      </ol>
+    </section>
+
+    <section class="section" id="recruitment">
+      <header class="section-title">
+        <p>Three Roads to Allegiance</p>
+        <h2>Recruitment Paths</h2>
+        <span>Aldren cannot be recruited through conversation. You must change what he believes the town deserves.</span>
+      </header>
+      <div class="path-grid">
+        <article class="path good">
+          <span class="path-type">Good</span><h3>The Weight of One Life</h3>
+          <p>Remove an infected relic from an innocent carrier without killing them, then prove it reacts to the miasma below.</p>
+          <dl><dt>Trait gained</dt><dd>Tempered Judgment</dd><dt>Consequence</dt><dd>Executions stop · Town morale rises</dd></dl>
+          <blockquote>“You found another way. Until I understand what I have become, I will follow your judgment.”</blockquote>
+        </article>
+        <article class="path neutral">
+          <span class="path-type">Neutral</span><h3>The Living Specimen</h3>
+          <p>Capture a transformed plague victim alive, transport it through town, and allow Aldren to examine it.</p>
+          <dl><dt>Trait gained</dt><dd>Cold Vigilance</dd><dt>Consequence</dt><dd>Harsh quarantine remains · Mission loyalty gained</dd></dl>
+          <blockquote>“You have given me evidence where others offered prayers and excuses. My sword is yours.”</blockquote>
+        </article>
+        <article class="path evil">
+          <span class="path-type">Evil</span><h3>The False Heresy</h3>
+          <p>Forge proof of a plague cult within the Castle, plant forbidden objects, and permanently silence the witness.</p>
+          <dl><dt>Trait gained</dt><dd>Purging Flame</dd><dt>Consequence</dt><dd>Fear rises · Suspects disappear</dd></dl>
+          <blockquote>“Name those who sheltered the cult, and I will pass judgment.”</blockquote>
+        </article>
+      </div>
+    </section>
+
+    <section class="section combat" id="combat">
+      <div>
+        <p class="eyebrow">Combat Identity</p>
+        <h2>The Line That Does Not Break</h2>
+        <p>Aldren is an armored frontline Templar who intercepts attacks, identifies plague threats, and turns defensive pressure into ruthless counterattacks.</p>
+      </div>
+      <article class="ability">
+        <span>Signature Skill</span><h3>Interpose</h3>
+        <p>Move into the path of an attack targeting an adjacent ally. Aldren receives the strike and gains Resolve for surviving it.</p>
+        <small>Reaction · Protection · Frontline</small>
+      </article>
+    </section>
+</main>
+
+<footer class="site-footer">
+  <div><span class="brand-mark" aria-hidden="true">✦</span><strong>Order of the Ashen Sun</strong></div>
+  <p>Character Archive · 01 of 60</p>
+  <a href="#top">Return to top ↑</a>
+</footer>
+</body>
+</html>
