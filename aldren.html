@@ -11,10 +11,10 @@
 <header class="site-header">
   <a class="brand" href="index.html" aria-label="Return to the game homepage">
     <span class="brand-mark" aria-hidden="true">✦</span>
-    <span>Plaguebound</span>
+    <span>Deadside</span>
   </a>
   <nav class="main-nav" aria-label="Character dossier navigation">
-    <a href="#dossier">Dossier</a>
+    <a href="#overview">Overview</a>
     <a href="#recruitment">Recruitment</a>
     <a href="#combat">Combat</a>
   </nav>
@@ -22,128 +22,100 @@
 </header>
 
 <main id="top">
-    <section class="hero" aria-labelledby="character-name">
-      <div class="hero-copy">
+  <div class="article-layout">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Archive</a><span>/</span><a href="index.html#archives">Characters</a><span>/</span><span aria-current="page">Sir Aldren Vey</span>
+    </nav>
+
+    <article class="article-body">
+      <header class="article-header">
         <p class="eyebrow">Selectable Starting Character</p>
-        <h1 id="character-name"><span>Sir Aldren</span> Vey</h1>
-        <p class="class-line">The Templar · Order of the Ashen Sun</p>
-        <p class="intro">A plague hunter sent to decide whether the castle town can be saved—or whether everything living within it must burn.</p>
-        <div class="hero-actions">
-          <a class="button" href="#dossier">Open Dossier</a>
-          <span class="alignment"><i></i> Severe, not inherently evil</span>
-        </div>
-      </div>
-
-      <!-- Add your portrait as images/aldren-templar.webp. The CSS provides a dark fallback when it is absent. -->
-      <div class="character-portrait" role="img" aria-label="Sir Aldren Vey in battered Templar armor">
-        <div class="ashen-sun" aria-hidden="true">✦</div>
-        <div class="portrait-label"><span>Age 42</span><span>Frontline / Plague Hunter</span></div>
-      </div>
-
-      <aside class="deadline">
-        <span>Final Order</span>
-        <strong>30</strong>
-        <small>days before the purge</small>
-      </aside>
-    </section>
-
-    <section class="section" id="dossier">
-      <header class="section-title">
-        <p>Restricted Record</p>
-        <h2>The Man Beneath the Armor</h2>
+        <h1 id="character-name">Sir Aldren Vey</h1>
+        <p class="article-subtitle">The Templar · Order of the Ashen Sun</p>
       </header>
-      <div class="dossier-grid">
-        <article class="story-panel">
-          <span class="roman">I</span>
-          <h3>Duty Against Mercy</h3>
-          <p>Aldren enters the miasma carrying sealed authority to burn infected districts, execute carriers, and destroy every road out of town. He believes hesitation can kill thousands. He also knows fear can turn righteous men into monsters.</p>
-          <p>He has until the thirtieth day to find and destroy the source before duty demands that he condemn everyone still alive.</p>
-          <blockquote>“Mercy must save more than the person receiving it.”</blockquote>
-        </article>
-        <aside class="facts">
-          <div><span>Core conflict</span><strong>Duty versus mercy</strong></div>
-          <div><span>Greatest fear</span><strong>The plague escapes because he hesitated</strong></div>
-          <div><span>Secret hope</span><strong>Proof the town can still be saved</strong></div>
-          <div><span>Sacred object</span><strong>Sun-shaped reliquary</strong></div>
-        </aside>
-      </div>
 
-      <div class="detail-grid">
-        <article>
-          <p class="small-title">Virtues</p>
+      <p class="lede">A plague hunter sent to decide whether the castle town can be saved—or whether everything living within it must burn.</p>
+
+      <h2 id="overview">Overview</h2>
+      <p>Aldren enters the miasma carrying sealed authority to burn infected districts, execute carriers, and destroy every road out of town. He believes hesitation can kill thousands. He also knows fear can turn righteous men into monsters.</p>
+      <p>He has until the thirtieth day to find and destroy the source before duty demands that he condemn everyone still alive.</p>
+      <blockquote>“Mercy must save more than the person receiving it.”</blockquote>
+
+      <h3>Virtues &amp; Faults</h3>
+      <div class="trait-columns">
+        <div>
+          <h4>Virtues</h4>
           <ul class="trait-list positive">
             <li>Courageous</li><li>Protective</li><li>Honest</li><li>Disciplined</li><li>Self-sacrificing</li>
           </ul>
-        </article>
-        <article>
-          <p class="small-title">Faults</p>
+        </div>
+        <div>
+          <h4>Faults</h4>
           <ul class="trait-list negative">
             <li>Judgmental</li><li>Controlling</li><li>Suspicious of magic</li><li>Emotionally withdrawn</li><li>Fears uncertainty</li>
           </ul>
-        </article>
-        <article class="secret">
-          <p class="small-title">Classified Truth</p>
-          <h3>The Relic Knows Him</h3>
-          <p>The reliquary Aldren believes is holy contains a fragment of the same demon beneath the town. He has unknowingly carried the plague between settlements for years.</p>
-        </article>
+        </div>
       </div>
-    </section>
 
-    <section class="section purge-section">
-      <header class="section-title split-title">
-        <div><p>If Aldren Is Not Selected</p><h2>The Purge Advances</h2></div>
-        <span>He arrives on Day 4 with three Templars.</span>
-      </header>
-      <ol class="timeline">
-        <li><b>04–08</b><span>Questions survivors and searches for evidence.</span></li>
-        <li><b>09–14</b><span>Confiscates supplies and arrests suspected carriers.</span></li>
-        <li><b>15–20</b><span>Executes the visibly mutated.</span></li>
-        <li><b>21–25</b><span>Seals infected buildings with people inside.</span></li>
-        <li><b>26–29</b><span>Prepares the town-wide purge.</span></li>
-        <li class="day-thirty"><b>30</b><span>Attempts to ignite the castle town.</span></li>
-      </ol>
-    </section>
-
-    <section class="section" id="recruitment">
-      <header class="section-title">
-        <p>Three Roads to Allegiance</p>
-        <h2>Recruitment Paths</h2>
-        <span>Aldren cannot be recruited through conversation. You must change what he believes the town deserves.</span>
-      </header>
-      <div class="path-grid">
-        <article class="path good">
-          <span class="path-type">Good</span><h3>The Weight of One Life</h3>
-          <p>Remove an infected relic from an innocent carrier without killing them, then prove it reacts to the miasma below.</p>
-          <dl><dt>Trait gained</dt><dd>Tempered Judgment</dd><dt>Consequence</dt><dd>Executions stop · Town morale rises</dd></dl>
-          <blockquote>“You found another way. Until I understand what I have become, I will follow your judgment.”</blockquote>
-        </article>
-        <article class="path neutral">
-          <span class="path-type">Neutral</span><h3>The Living Specimen</h3>
-          <p>Capture a transformed plague victim alive, transport it through town, and allow Aldren to examine it.</p>
-          <dl><dt>Trait gained</dt><dd>Cold Vigilance</dd><dt>Consequence</dt><dd>Harsh quarantine remains · Mission loyalty gained</dd></dl>
-          <blockquote>“You have given me evidence where others offered prayers and excuses. My sword is yours.”</blockquote>
-        </article>
-        <article class="path evil">
-          <span class="path-type">Evil</span><h3>The False Heresy</h3>
-          <p>Forge proof of a plague cult within the Castle, plant forbidden objects, and permanently silence the witness.</p>
-          <dl><dt>Trait gained</dt><dd>Purging Flame</dd><dt>Consequence</dt><dd>Fear rises · Suspects disappear</dd></dl>
-          <blockquote>“Name those who sheltered the cult, and I will pass judgment.”</blockquote>
-        </article>
+      <div class="callout secret">
+        <p class="small-title">Classified Truth · The Relic Knows Him</p>
+        <p>The reliquary Aldren believes is holy contains a fragment of the same demon beneath the town. He has unknowingly carried the plague between settlements for years.</p>
       </div>
-    </section>
 
-    <section class="section combat" id="combat">
-      <div>
-        <p class="eyebrow">Combat Identity</p>
-        <h2>The Line That Does Not Break</h2>
-        <p>Aldren is an armored frontline Templar who intercepts attacks, identifies plague threats, and turns defensive pressure into ruthless counterattacks.</p>
+      <h2 id="purge">If Aldren Is Not Selected</h2>
+      <p>Aldren is not recruitable if he isn't chosen as the starting protagonist, and his arrival is not guaranteed—it's decided by RNG, and in some playthroughs he never shows up at all. When he does appear, he arrives on Day 24 with two Templars and begins killing to contain the plague. From that point on he only adds new story events; he cannot be persuaded to join the company.</p>
+      <table class="wiki-table">
+        <thead><tr><th>Days</th><th>Event</th></tr></thead>
+        <tbody>
+          <tr><td>24</td><td>Arrives with two Templars and begins containment killings.</td></tr>
+          <tr><td>25–27</td><td>Hunts down and executes infected residents on sight, sealing contaminated streets.</td></tr>
+          <tr class="day-thirty"><td>28–30</td><td>Searches for the source of the plague alongside his remaining men.</td></tr>
+        </tbody>
+      </table>
+
+      <h2 id="recruitment">Recruitment</h2>
+      <p>Unlike other archive characters, Aldren has no recruitment path. He is either chosen as the starting protagonist before Day 1, or encountered later purely as a story event—he cannot be persuaded, bargained with, or maneuvered into joining the company by any means. He arrives with two other Templars, and all three can be engaged in battle and killed.</p>
+
+      <h2 id="combat">Combat Identity</h2>
+      <p>Aldren is an armored frontline Templar who intercepts attacks, identifies plague threats, and turns defensive pressure into ruthless counterattacks.</p>
+
+      <h3>Signature Skill · Interpose</h3>
+      <p>Move into the path of an attack targeting an adjacent ally. Aldren receives the strike and gains Resolve for surviving it.</p>
+      <p class="tags">Reaction · Protection · Frontline</p>
+    </article>
+
+    <aside class="sidebar">
+      <div class="infobox">
+        <!-- Add a portrait as images/aldren-templar.webp for this panel. -->
+        <div class="infobox-portrait" role="img" aria-label="Sir Aldren Vey in battered Templar armor">
+          <span class="ashen-sun" aria-hidden="true">✦</span>
+        </div>
+        <h2 class="infobox-title">Sir Aldren Vey</h2>
+        <table class="infobox-table">
+          <tr><th>Class</th><td>Templar</td></tr>
+          <tr><th>Order</th><td>Ashen Sun</td></tr>
+          <tr><th>Age</th><td>42</td></tr>
+          <tr><th>Role</th><td>Frontline / Plague Hunter</td></tr>
+          <tr><th>Alignment</th><td>Severe, not inherently evil</td></tr>
+          <tr><th>Core conflict</th><td>Duty versus mercy</td></tr>
+          <tr><th>Greatest fear</th><td>The plague escapes because he hesitated</td></tr>
+          <tr><th>Secret hope</th><td>Proof the town can still be saved</td></tr>
+          <tr><th>Sacred object</th><td>Sun-shaped reliquary</td></tr>
+        </table>
+        <div class="infobox-countdown"><span>Final Order:</span> <strong>30</strong> days before the purge</div>
       </div>
-      <article class="ability">
-        <span>Signature Skill</span><h3>Interpose</h3>
-        <p>Move into the path of an attack targeting an adjacent ally. Aldren receives the strike and gains Resolve for surviving it.</p>
-        <small>Reaction · Protection · Frontline</small>
-      </article>
-    </section>
+
+      <nav class="toc" aria-label="Table of contents">
+        <p class="toc-title">Contents</p>
+        <ol>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#purge">If Not Selected</a></li>
+          <li><a href="#recruitment">Recruitment</a></li>
+          <li><a href="#combat">Combat Identity</a></li>
+        </ol>
+      </nav>
+    </aside>
+  </div>
 </main>
 
 <footer class="site-footer">
