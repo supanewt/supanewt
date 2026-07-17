@@ -18,7 +18,6 @@ h1{margin:0;font-family:Cinzel,serif;font-weight:600;font-size:clamp(2.1rem,4vw,
 .section-title>span{display:block;max-width:650px;margin-top:16px;color:var(--ink-soft);font-size:1rem}
 
 /* Wiki article pages (character dossiers etc.) */
-.breadcrumb{grid-column:1/-1;margin:0 0 26px;color:var(--ink-soft);font-size:.82rem}.breadcrumb a{color:var(--ink-soft)}.breadcrumb a:hover{color:var(--blood)}.breadcrumb span{margin:0 8px;color:#a39c88}
 .article-layout{display:grid;grid-template-columns:1fr 300px;gap:56px;max-width:1180px;margin:auto;padding:150px 40px 110px}
 .article-header{margin:0 0 18px;padding-bottom:18px;border-bottom:2px solid var(--ink)}
 .article-subtitle{margin:10px 0 0;color:var(--blood);font-family:Cinzel,serif;font-size:.76rem;letter-spacing:.14em;text-transform:uppercase}
@@ -68,6 +67,13 @@ h1{margin:0;font-family:Cinzel,serif;font-weight:600;font-size:clamp(2.1rem,4vw,
 .infobox-table{width:100%;border-collapse:collapse;font-size:.85rem}.infobox-table th,.infobox-table td{padding:9px 16px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.infobox-table tr:last-child th,.infobox-table tr:last-child td{border-bottom:0}.infobox-table th{width:40%;color:var(--ink-soft);font-weight:400;font-family:Cinzel,serif;font-size:.6rem;letter-spacing:.06em;text-transform:uppercase}.infobox-table td{color:var(--ink)}
 .infobox-countdown{padding:14px 18px;border-top:1px solid var(--line);text-align:center;color:var(--ink-soft);font-size:.78rem}.infobox-countdown strong{color:var(--blood);font-family:Cinzel,serif;font-size:1.3rem}
 .toc{border:1px solid var(--ink);background:var(--card);padding:16px 18px;box-shadow:4px 4px 0 rgba(21,18,13,.15)}.toc-title{margin:0 0 10px;padding-bottom:8px;border-bottom:1px solid var(--line);color:var(--blood);font-family:Cinzel,serif;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase}.toc ol{margin:0;padding-left:18px;color:var(--ink);font-size:.87rem;line-height:2}.toc a:hover{color:var(--blood)}
+.alpha-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.alpha-grid a,.alpha-grid span{display:flex;align-items:center;justify-content:center;aspect-ratio:1;border:1px solid var(--ink);background:var(--card);font-family:Cinzel,serif;font-weight:600;font-size:18px;box-shadow:3px 3px 0 rgba(21,18,13,.18)}
+.alpha-grid a{color:var(--ink);transition:background .15s,color .15s,box-shadow .15s,transform .15s}
+.alpha-grid a:hover{background:var(--ink);color:var(--paper);box-shadow:3px 3px 0 var(--blood);transform:translate(-1px,-1px)}
+.alpha-grid span{background:transparent;border-color:var(--line);color:var(--ink-soft);opacity:.35;box-shadow:none}
+.letter-heading{margin:52px 0 12px;padding-bottom:8px;border-bottom:2px solid var(--blood);font-family:Cinzel,serif;font-weight:600;font-size:1.8rem;color:var(--blood)}
+.letter-heading:first-of-type{margin-top:0}
 
 @media(max-width:900px){.site-header{grid-template-columns:1fr auto;padding:22px 24px}.main-nav{display:none}.section{padding:70px 22px}
   .article-layout{grid-template-columns:1fr;padding:140px 24px 70px}.sidebar{order:-1;position:static}.trait-columns{grid-template-columns:1fr}.gear-grid{grid-template-columns:1fr}
